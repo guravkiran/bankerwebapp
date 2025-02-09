@@ -1,0 +1,114 @@
+.App {
+  display: flex;
+}
+
+.toggle-button {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  background-color: #FF5722; /* Orange button */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  z-index: 1000; /* Ensure it stays on top */
+}
+
+.toggle-button:hover {
+  background-color: #E64A19; /* Darker orange on hover */
+}
+
+/* .top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+} */
+
+.top-bar {
+  background-color: #333; /* Dark background color */
+  color: white; /* Text color */
+  padding: 10px; /* Padding around the text */
+  text-align: center; /* Center the text */
+  height: 50px; /* Fixed height */
+  display: flex;
+  position: fixed;
+  width: 100%;
+  left: 200px;
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-name {
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+.top-bar button {
+  background-color: #FF5722;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.top-bar button:hover {
+  background-color: #E64A19;
+}
+
+
+.top-bar-content {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Align content to the left */
+  flex: 1; /* Take up remaining space */
+}
+
+.content {
+  flex: 1; /* Take up remaining space */
+  padding: 15px; /* Padding inside the content area */
+  background-color: #F5F7FA; /* White background color */
+  overflow-y: auto; /* Scroll if content overflows */
+  margin-top: 160px;
+  left: 250px;
+}
+
+.signin-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  text-align: center; /* Center text inside the container */
+  left: 150px;
+}
+
+.signin-button {
+  background-color: #FF5722;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 18px;
+  left: 150px;
+}
+
+.signin-button:hover {
+  background-color: #E64A19;
+}
