@@ -25,8 +25,8 @@ jobs:
 
       - name: npm install, build, and test
         run: |
+          npm cache clean --force
           npm install
-          npm install react-router-dom --save
           npm run build --if-present
           npm run test --if-present
 
