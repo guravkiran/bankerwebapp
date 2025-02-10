@@ -4,7 +4,7 @@ export const msalConfig = {
   auth: {
     clientId: '083a7996-d80f-4323-b294-23b9008132e7',
     authority: 'https://login.microsoftonline.com/ea3033f5-f488-48e0-ab17-b07a87e18085',
-    redirectUri: 'http://localhost:3000',
+    redirectUri: 'https://bankerwebapp-g0a0abafhzfhdaft.centralindia-01.azurewebsites.net/',
   },
   cache: {
     cacheLocation: 'localStorage',
